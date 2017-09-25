@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meet Iasi Romania</string>
+    <string name="category_museum">Museums</string>
+    <string name="category_park">Parks</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_hotel">Hotels</string>
+    <string name="category_main_attraction">Main Attractions</string>
+</resources>

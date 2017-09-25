@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.meetiasiromania.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:background="@color/category_museum"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/museum_tab"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:src="@drawable/museum" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        style="@style/CategoryStyle"
+        android:text="@string/category_museum" />
+         </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/category_park"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/park_tab"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/park" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        style="@style/CategoryStyle"
+        android:text="@string/category_park" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@color/category_restaurant"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/restaurant_tab"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/restaurant" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            style="@style/CategoryStyle"
+            android:text="@string/category_restaurant" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/category_hotel"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/hotel_tab"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/hotel" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            style="@style/CategoryStyle"
+            android:text="@string/category_hotel" />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@color/category_main_attractions"
+            android:id="@+id/main_attraction_tab"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/main_attraction" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            style="@style/CategoryStyle"
+            android:text="@string/category_main_attraction" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

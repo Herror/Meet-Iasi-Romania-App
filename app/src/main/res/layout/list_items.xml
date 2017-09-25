@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:paddingTop="5dp"
+            android:id="@+id/attraction_photo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/attraction_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/attraction_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="26dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/attraction_hours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="26dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/attraction_location"
+            android:textColor="#64FFDA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
