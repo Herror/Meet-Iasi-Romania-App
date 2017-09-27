@@ -21,6 +21,8 @@
             android:id="@+id/attraction_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:maxLines="1"
+            android:ellipsize="end"
             android:gravity="center_vertical"
             android:paddingLeft="16dp"
             android:textStyle="bold"
@@ -57,6 +59,8 @@
             android:textColor="#64FFDA"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
             android:gravity="center_vertical"
             android:textStyle="bold"
             android:textAppearance="?android:textAppearanceMedium"/>
